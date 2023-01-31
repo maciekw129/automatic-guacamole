@@ -12,5 +12,789 @@
       "type": "user",
       "id": 11
     }
+  ],
+  "searchbarEvents": [
+    {
+      "id": 1,
+      "name": "Piwko po pracy"
+    },
+    {
+      "id": 1,
+      "name": "Bilard"
+    },
+    {
+      "id": 1,
+      "name": "Niedzielny grill"
+    }
+  ],
+  "searchbarGroups": [
+    {
+      "id": 1,
+      "name": "Liga szydełkowa"
+    },
+    {
+      "id": 1,
+      "name": "Gramy w tenisa"
+    },
+    {
+      "id": 1,
+      "name": "Piwko ponad wszystko"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "eventInfo": {
+        "name": "Giga Koks Turbo Event",
+        "category": {
+          "id": 1,
+          "name": "Piwo"
+        },
+        "startDate": "20.01.2023",
+        "hashtags": [
+          {
+            "id": 1,
+            "value": "piwo"
+          },
+          {
+            "id": 2,
+            "value": "GigaTurboEssaKoks"
+          }
+        ],
+        "isConfirmationRequired": false,
+        "isPrivate": false,
+        "group": false,
+        "isCyclic": true,
+        "city": "Warszawa",
+        "acceptedStatusUsers": 10
+      }
+    },
+    {
+      "id": 2,
+      "eventInfo": {
+        "name": "Giga Koks Turbo Event",
+        "category": {
+          "id": 2,
+          "name": "Piwunio"
+        },
+        "startDate": "20.01.2023",
+        "hashtags": [
+          {
+            "id": 1,
+            "value": "piwo"
+          },
+          {
+            "id": 2,
+            "value": "GigaTurboEssaKoks"
+          }
+        ],
+        "isConfirmationRequired": false,
+        "isPrivate": true,
+        "group": false,
+        "isCyclic": false,
+        "city": "Warszawa",
+        "acceptedStatusUsers": 10
+      }
+    },
+    {
+      "id": 3,
+      "eventInfo": {
+        "name": "Giga Koks Turbo Event",
+        "category": {
+          "id": 3,
+          "name": "Piwko"
+        },
+        "startDate": "20.01.2023",
+        "hashtags": [
+          {
+            "id": 1,
+            "value": "piwo"
+          },
+          {
+            "id": 2,
+            "value": "GigaTurboEssaKoks"
+          }
+        ],
+        "isConfirmationRequired": false,
+        "isPrivate": true,
+        "group": false,
+        "isCyclic": false,
+        "city": "Warszawa",
+        "acceptedStatusUsers": 10
+      }
+    },
+    {
+      "id": 4,
+      "eventInfo": {
+        "name": "Giga Koks Turbo Event",
+        "category": {
+          "id": 4,
+          "name": "Piwerko"
+        },
+        "startDate": "20.01.2023",
+        "hashtags": [
+          {
+            "id": 1,
+            "value": "piwo"
+          },
+          {
+            "id": 2,
+            "value": "GigaTurboEssaKoks"
+          }
+        ],
+        "isConfirmationRequired": true,
+        "isPrivate": true,
+        "group": false,
+        "isCyclic": true,
+        "city": "Warszawa",
+        "acceptedStatusUsers": 10
+      }
+    }
+  ],
+  "singleEvents": [
+    {
+      "id": 1,
+      "eventInfo": {
+        "isConfirmationRequired": true,
+        "limitedPlaces": 10,
+        "eventParticipationStats": {
+          "accepted": 9,
+          "pending": 7,
+          "rejected": 5
+        },
+        "isPrivate": true,
+        "group": {
+          "id": 123,
+          "name": "piwosze"
+        },
+        "cycleLenght": 3,
+        "name": "pubowe spotkania",
+        "category": {
+          "id": 1,
+          "name": "pub"
+        },
+        "startDate": "20.02.2023",
+        "hour": "09:22",
+        "location": {
+          "id": 1,
+          "altitude": 2.33,
+          "latitude": 3.44,
+          "postCode": "30-222",
+          "city": "Warszawa",
+          "street": "Rybna",
+          "streetNumber": "8",
+          "apartmentNumber": "1"
+        },
+        "description": "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, exercitationem nam. Asperiores quo, saepe dolor similique eaque culpa maiores! Nostrum fugit iste, maioresitatibus assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, exercitationem nam. Asperiores quo, saepe dolor similique eaque culpa maiores! Nostrum fugit iste, maiores veniam omnis at. Ducimus ex necessitatibus assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, exercitationem nam. Asperiores quo, saepe dolor similique eaque culpa maiores! Nostrum fugit iste, maiores veniam omnis at. Ducimus ex necessitatibus assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, exercitationem nam. Asperiores quo, saepe dolor similique eaque culpa maiores! Nostrum fugit iste, maiores veniam omnis at. Ducimus ex necessitaiores! Nostrum fugit iste, maiores veniam omnis at. Ducimus ex necessitatibus assumenda?",
+        "hashtags": [
+          {
+            "id": 1,
+            "value": "spotkanie"
+          },
+          {
+            "id": 2,
+            "value": "piwo"
+          }
+        ]
+      },
+      "isPrivate": "false"
+    }
+  ],
+  "group": [
+    {
+      "id": 1,
+      "name": "Piłkarzyki",
+      "description": "Gramy w piłkarzyki",
+      "groupOwner": {
+        "basicUserId": 1
+      },
+      "groupMembers": [
+        {
+          "id": 1,
+          "firstName": "Lionel",
+          "lastName": "Messi"
+        },
+        {
+          "id": 2,
+          "firstName": "Cristiano",
+          "lastName": "Ronaldo"
+        },
+        {
+          "id": 2,
+          "firstName": "Jacek",
+          "lastName": "Krzynówek"
+        },
+        {
+          "id": 2,
+          "firstName": "Rober",
+          "lastName": "Lewandowski"
+        },
+        {
+          "id": 2,
+          "firstName": "Diego",
+          "lastName": "Maradonna"
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "eventInfo": {
+            "name": "Turniej",
+            "category": {
+              "id": 1,
+              "name": "Angular"
+            },
+            "startDate": "22.01.2022",
+            "hashtags": [
+              {
+                "id": 1,
+                "value": "daily"
+              },
+              {
+                "id": 2,
+                "value": "football"
+              },
+              {
+                "id": 3,
+                "value": "pilkarzyki"
+              }
+            ],
+            "isConfirmationRequired": true,
+            "isPrivate": false,
+            "group": true,
+            "isCyclic": true,
+            "city": "Warszawa",
+            "acceptedStatusUsers": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 2137,
+      "name": "Moovelo Frontend",
+      "description": "Wstęp tylko dla frontendu",
+      "groupOwner": {
+        "basicUserId": 1
+      },
+      "groupMembers": [
+        {
+          "id": 1,
+          "firstName": "Grzegorz",
+          "lastName": "Bandyra"
+        },
+        {
+          "id": 2,
+          "firstName": "Maciej",
+          "lastName": "Walecki"
+        },
+        {
+          "id": 3,
+          "firstName": "Jakub",
+          "lastName": "Borkowski"
+        },
+        {
+          "id": 4,
+          "firstName": "Anna",
+          "lastName": "Kierlin"
+        },
+        {
+          "id": 5,
+          "firstName": "Łukasz",
+          "lastName": "Pietrzykowski"
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "eventInfo": {
+            "name": "Daily Scrum",
+            "category": {
+              "id": 1,
+              "name": "Daily"
+            },
+            "startDate": "22.01.2022",
+            "hashtags": [
+              {
+                "id": 1,
+                "value": "daily"
+              },
+              {
+                "id": 2,
+                "value": "scrum"
+              },
+              {
+                "id": 3,
+                "value": "nicNieRobiłem"
+              }
+            ],
+            "isConfirmationRequired": false,
+            "isPrivate": false,
+            "group": true,
+            "isCyclic": true,
+            "city": "Warszawa",
+            "acceptedStatusUsers": 2
+          }
+        },
+        {
+          "id": 2,
+          "eventInfo": {
+            "name": "Angular Sux",
+            "category": {
+              "id": 1,
+              "name": "Essa"
+            },
+            "startDate": "22.01.2022",
+            "hashtags": [
+              {
+                "id": 1,
+                "value": "react"
+              },
+              {
+                "id": 2,
+                "value": "poCoNamAngular"
+              },
+              {
+                "id": 3,
+                "value": "oddajReacta"
+              }
+            ],
+            "isConfirmationRequired": false,
+            "isPrivate": false,
+            "group": true,
+            "isCyclic": true,
+            "city": "Warszawa",
+            "acceptedStatusUsers": 4
+          }
+        },
+        {
+          "id": 3,
+          "eventInfo": {
+            "name": "Wykład dla kujonów",
+            "category": {
+              "id": 1,
+              "name": "Nauka"
+            },
+            "startDate": "22.01.2022",
+            "hashtags": [
+              {
+                "id": 1,
+                "value": "nudy"
+              },
+              {
+                "id": 2,
+                "value": "INTERCEPTORXD"
+              },
+              {
+                "id": 3,
+                "value": "iTakNieSłucham"
+              }
+            ],
+            "isConfirmationRequired": true,
+            "isPrivate": false,
+            "group": true,
+            "isCyclic": false,
+            "city": "Warszawa",
+            "acceptedStatusUsers": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Backend Moovelo",
+      "description": "Wstęp tylko dla backendu",
+      "groupOwner": {
+        "basicUserId": 6
+      },
+      "groupMembers": [
+        {
+          "id": 1,
+          "firstName": "Jakub",
+          "lastName": "Kryst"
+        },
+        {
+          "id": 2,
+          "firstName": "Przemek",
+          "lastName": "Mazurek"
+        },
+        {
+          "id": 3,
+          "firstName": "Rafał",
+          "lastName": "Karchier"
+        },
+        {
+          "id": 4,
+          "firstName": "Magda",
+          "lastName": "Stebel"
+        },
+        {
+          "id": 5,
+          "firstName": "Riczi",
+          "lastName": "XD"
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "eventInfo": {
+            "name": "Daily Scrum",
+            "category": {
+              "id": 1,
+              "name": "Daily"
+            },
+            "startDate": "22.01.2022",
+            "hashtags": [
+              {
+                "id": 1,
+                "value": "daily"
+              },
+              {
+                "id": 2,
+                "value": "scrum"
+              },
+              {
+                "id": 3,
+                "value": "nicNieRobiłem"
+              }
+            ],
+            "isConfirmationRequired": false,
+            "isPrivate": false,
+            "group": true,
+            "isCyclic": true,
+            "city": "Warszawa",
+            "acceptedStatusUsers": 4
+          }
+        },
+        {
+          "id": 2,
+          "eventInfo": {
+            "name": "Backend zrobi",
+            "category": {
+              "id": 1,
+              "name": "Wszystko"
+            },
+            "startDate": "22.02.2022",
+            "hashtags": [
+              {
+                "id": 1,
+                "value": "JAVAXD"
+              },
+              {
+                "id": 2,
+                "value": "algorytmyXD"
+              },
+              {
+                "id": 3,
+                "value": "jf"
+              }
+            ],
+            "isConfirmationRequired": true,
+            "isPrivate": false,
+            "group": true,
+            "isCyclic": false,
+            "city": "Warszawa",
+            "acceptedStatusUsers": 1
+          }
+        },
+        {
+          "id": 3,
+          "eventInfo": {
+            "name": "Wykład o jakiś pierdołach",
+            "category": {
+              "id": 1,
+              "name": "Wszystko"
+            },
+            "startDate": "22.02.2022",
+            "hashtags": [
+              {
+                "id": 1,
+                "value": "wykład"
+              },
+              {
+                "id": 2,
+                "value": "nudy"
+              },
+              {
+                "id": 3,
+                "value": "poCoMiTo"
+              }
+            ],
+            "isConfirmationRequired": false,
+            "isPrivate": false,
+            "group": true,
+            "isCyclic": false,
+            "city": "Warszawa",
+            "acceptedStatusUsers": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "AgroAPKI",
+      "description": "To ta lepsza grupa",
+      "groupOwner": {
+        "basicUserId": 6
+      },
+      "groupMembers": [
+        {
+          "id": 1,
+          "firstName": "Grzegorz",
+          "lastName": "Bandyra"
+        },
+        {
+          "id": 2,
+          "firstName": "Maciej",
+          "lastName": "Walecki"
+        },
+        {
+          "id": 3,
+          "firstName": "Jakub",
+          "lastName": "Borkowski"
+        },
+        {
+          "id": 4,
+          "firstName": "Anna",
+          "lastName": "Kierlin"
+        },
+        {
+          "id": 5,
+          "firstName": "Łukasz",
+          "lastName": "Pietrzykowski"
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "eventInfo": {
+            "name": "Piwo dla rolnika",
+            "category": {
+              "id": 1,
+              "name": "Integracja"
+            },
+            "startDate": "29.01.2022",
+            "hashtags": [
+              {
+                "id": 1,
+                "value": "piwo"
+              },
+              {
+                "id": 2,
+                "value": "integracja"
+              },
+              {
+                "id": 3,
+                "value": "wyjscie"
+              },
+              {
+                "id": 3,
+                "value": "bilard"
+              }
+            ],
+            "isConfirmationRequired": false,
+            "isPrivate": false,
+            "group": true,
+            "isCyclic": false,
+            "city": "Warszawa",
+            "acceptedStatusUsers": 2
+          }
+        },
+        {
+          "id": 2,
+          "eventInfo": {
+            "name": "Spotkanie z Vice",
+            "category": {
+              "id": 1,
+              "name": "Spotkanie"
+            },
+            "startDate": "22.04.2022",
+            "hashtags": [
+              {
+                "id": 1,
+                "value": "ważne"
+              },
+              {
+                "id": 2,
+                "value": "hajs"
+              },
+              {
+                "id": 3,
+                "value": "umowa"
+              }
+            ],
+            "isConfirmationRequired": true,
+            "isPrivate": false,
+            "group": true,
+            "isCyclic": false,
+            "city": "Warszawa",
+            "acceptedStatusUsers": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Wykolejeńcy",
+      "description": "To ta trochę gorsza grupa",
+      "groupOwner": {
+        "basicUserId": 6
+      },
+      "groupMembers": [
+        {
+          "id": 1,
+          "firstName": "Riczi",
+          "lastName": "nieMaNazwiskaNaDC"
+        },
+        {
+          "id": 2,
+          "firstName": "Przemek",
+          "lastName": "Mazurek"
+        },
+        {
+          "id": 3,
+          "firstName": "Rafał",
+          "lastName": "Karchier"
+        },
+        {
+          "id": 4,
+          "firstName": "Magda",
+          "lastName": "Stebel"
+        },
+        {
+          "id": 5,
+          "firstName": "Jakub",
+          "lastName": "Kryst"
+        }
+      ],
+      "events": [
+        {
+          "id": 1,
+          "eventInfo": {
+            "name": "Dev, który jeździł koleją",
+            "category": {
+              "id": 1,
+              "name": "Inna"
+            },
+            "startDate": "29.01.2022",
+            "hashtags": [
+              {
+                "id": 1,
+                "value": "co"
+              },
+              {
+                "id": 2,
+                "value": "skończyły"
+              },
+              {
+                "id": 3,
+                "value": "mi"
+              },
+              {
+                "id": 3,
+                "value": "się"
+              },
+              {
+                "id": 3,
+                "value": "pomysły"
+              }
+            ],
+            "isConfirmationRequired": true,
+            "isPrivate": false,
+            "group": true,
+            "isCyclic": true,
+            "city": "Warszawa",
+            "acceptedStatusUsers": 1
+          }
+        },
+        {
+          "id": 2,
+          "eventInfo": {
+            "name": "Spotkanie przy torach",
+            "category": {
+              "id": 1,
+              "name": "Spotkanie"
+            },
+            "startDate": "22.04.2022",
+            "hashtags": [
+              {
+                "id": 1,
+                "value": "ważne"
+              },
+              {
+                "id": 2,
+                "value": "wódka"
+              }
+            ],
+            "isConfirmationRequired": false,
+            "isPrivate": false,
+            "group": true,
+            "isCyclic": false,
+            "city": "Warszawa",
+            "acceptedStatusUsers": 2
+          }
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "groupOwner": {
+        "bsicUserId": 1
+      },
+      "isUserMember": false,
+      "id": 1,
+      "name": "Piłkarzyki",
+      "description": "Gramy w piłkarzyki",
+      "numberOfMembers": 5
+    },
+    {
+      "groupOwner": {
+        "bsicUserId": 32
+      },
+      "isUserMember": true,
+      "id": 2137,
+      "name": "Moovelo Frontend",
+      "description": "Wstęp tylko dla frontendu",
+      "numberOfMembers": 5
+    },
+    {
+      "groupOwner": {
+        "bsicUserId": 22
+      },
+      "isUserMember": false,
+      "id": 3,
+      "name": "Moovelo Backend",
+      "description": "Wstęp tylko dla backendu",
+      "numberOfMembers": 5
+    },
+    {
+      "groupOwner": {
+        "bsicUserId": 5
+      },
+      "isUserMember": true,
+      "id": 4,
+      "name": "AgroAPKI",
+      "description": "To ta lepsza grupa",
+      "numberOfMembers": 5
+    },
+    {
+      "groupOwner": {
+        "bsicUserId": 10
+      },
+      "isUserMember": false,
+      "id": 5,
+      "name": "Wykolejeńcy",
+      "description": "To ta trochę gorsza grupa",
+      "numberOfMembers": 5
+    }
+  ],
+  "categories": [
+    { "name": "piwo", "isVisible": true },
+    { "name": "piwko", "isVisible": false },
+    { "name": "piłkarzyki", "isVisible": true },
+    { "name": "wyjścia do baru", "isVisible": true },
+    { "name": "szydełkowanie", "isVisible": true },
+    { "name": "plaża", "isVisible": true },
+    { "name": "xyz", "isVisible": false }
   ]
 }

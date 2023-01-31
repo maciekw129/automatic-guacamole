@@ -788,13 +788,11 @@
       "numberOfMembers": 5
     }
   ],
-  "categories": [
-    { "name": "piwo", "isVisible": true },
-    { "name": "piwko", "isVisible": false },
-    { "name": "piłkarzyki", "isVisible": true },
-    { "name": "wyjścia do baru", "isVisible": true },
-    { "name": "szydełkowanie", "isVisible": true },
-    { "name": "plaża", "isVisible": true },
-    { "name": "xyz", "isVisible": false }
+  "eventCategories": [
+    { "name": "piwo" },
+    { "name": "piłkarzyki" },
+    { "name": "wyjścia do baru" },
+    { "name": "szydełkowanie" },
+    { "name": "plaża" }
   ]
 }

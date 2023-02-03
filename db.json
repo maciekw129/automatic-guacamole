@@ -931,5 +931,12 @@
         }
       ]
     }
+  ],
+  "categoryProposal": [
+    {
+      "id": 1,
+      "name": "Św. Izydor",
+      "description": "Potrzebujemy błogosławieństaw kapłana najwyższego"
+    }
   ]
 }

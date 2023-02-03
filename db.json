@@ -794,5 +794,16 @@
     { "name": "wyjścia do baru" },
     { "name": "szydełkowanie" },
     { "name": "plaża" }
-  ]
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "user": {
+        "firstname": "K.",
+        "lastName": "Wojkowski"
+      },
+      "date": "23-12-22",
+      "text": "Kocham jabłko, ajfony są da best!",
+      "attachments": []
+    }]
 }

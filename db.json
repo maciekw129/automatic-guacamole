@@ -734,6 +734,16 @@
           }
         }
       ]
+    },
+    {
+      "id": 6,
+      "name": "Pusta grupa",
+      "description": "To ta trochę gorsza grupa",
+      "groupOwner": {
+        "basicUserId": 6
+      },
+      "groupMembers": [],
+      "events": []
     }
   ],
   "groups": [
@@ -786,14 +796,34 @@
       "name": "Wykolejeńcy",
       "description": "To ta trochę gorsza grupa",
       "numberOfMembers": 5
+    },
+    {
+      "groupOwner": {
+        "bsicUserId": 25
+      },
+      "isUserMember": false,
+      "id": 6,
+      "name": "Pusta grupa",
+      "description": "Ta grupa jest pusta",
+      "numberOfMembers": 0
     }
   ],
   "eventCategories": [
-    { "name": "piwo" },
-    { "name": "piłkarzyki" },
-    { "name": "wyjścia do baru" },
-    { "name": "szydełkowanie" },
-    { "name": "plaża" }
+    {
+      "name": "piwo"
+    },
+    {
+      "name": "piłkarzyki"
+    },
+    {
+      "name": "wyjścia do baru"
+    },
+    {
+      "name": "szydełkowanie"
+    },
+    {
+      "name": "plaża"
+    }
   ],
   "mockedGroupUsers": [
     {
@@ -949,5 +979,6 @@
       "date": "23-12-22",
       "text": "Kocham jabłko, ajfony są da best!",
       "attachments": []
-    }]
+    }
+  ]
 }

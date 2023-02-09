@@ -850,6 +850,28 @@
       "name": "plaża"
     }
   ],
+  "categories": [
+    {
+      "name": "piwo",
+      "visibility": true
+    },
+    {
+      "name": "piłkarzyki",
+      "visibility": true
+    },
+    {
+      "name": "wyjścia do baru",
+      "visibility": true
+    },
+    {
+      "name": "szydełkowanie",
+      "visibility": false
+    },
+    {
+      "name": "plaża",
+      "visibility": true
+    }
+  ],
   "mockedGroupUsers": [
     {
       "id": 1,
@@ -1004,6 +1026,24 @@
       "date": "23-12-22",
       "text": "Kocham jabłko, ajfony są da best!",
       "attachments": []
+    }
+  ],
+  "hashtags": [
+    {
+      "id": 1,
+      "value": "piwkoo"
+    },
+    {
+      "id": 2,
+      "value": "relaks"
+    },
+    {
+      "id": 3,
+      "value": "wolność"
+    },
+    {
+      "id": 1,
+      "value": "chill"
     }
   ]
 }

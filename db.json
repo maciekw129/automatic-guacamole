@@ -744,12 +744,37 @@
       },
       "groupMembers": [],
       "events": []
+    },
+    {
+      "name": "     ",
+      "description": "                                                       ",
+      "id": 7
+    },
+    {
+      "name": "                         ",
+      "description": "                                            ",
+      "id": 8
+    },
+    {
+      "name": "              ",
+      "description": "                      ",
+      "id": 9
+    },
+    {
+      "name": "                    ",
+      "description": "                                ",
+      "id": 10
+    },
+    {
+      "name": "            ",
+      "description": "                                                           ",
+      "id": 11
     }
   ],
   "groups": [
     {
       "groupOwner": {
-        "bsicUserId": 1
+        "userId": 11
       },
       "isUserMember": false,
       "id": 1,
@@ -759,7 +784,7 @@
     },
     {
       "groupOwner": {
-        "bsicUserId": 32
+        "userId": 11
       },
       "isUserMember": true,
       "id": 2,
@@ -769,7 +794,7 @@
     },
     {
       "groupOwner": {
-        "bsicUserId": 22
+        "userId": 22
       },
       "isUserMember": false,
       "id": 3,
@@ -779,7 +804,7 @@
     },
     {
       "groupOwner": {
-        "bsicUserId": 5
+        "userId": 11
       },
       "isUserMember": true,
       "id": 4,
@@ -789,7 +814,7 @@
     },
     {
       "groupOwner": {
-        "bsicUserId": 10
+        "userId": 10
       },
       "isUserMember": false,
       "id": 5,
@@ -799,7 +824,7 @@
     },
     {
       "groupOwner": {
-        "bsicUserId": 25
+        "userId": 25
       },
       "isUserMember": false,
       "id": 6,

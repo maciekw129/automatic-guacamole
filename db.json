@@ -794,5 +794,45 @@
     { "name": "wyjścia do baru" },
     { "name": "szydełkowanie" },
     { "name": "plaża" }
+  ],
+  "hashtags": [
+    {
+      "id": 1,
+      "value": "piwkoo"
+    },
+    {
+      "id": 2,
+      "value": "relaks"
+    },
+    {
+      "id": 3,
+      "value": "wolność"
+    },
+    {
+      "id": 1,
+      "value": "chill"
+    }
+  ],
+  "categories": [
+    {
+      "name": "sport",
+      "isVisible": true
+    },
+    {
+      "name": "szachy",
+      "isVisible": true
+    },
+    {
+      "name": "basen",
+      "isVisible": true
+    },
+    {
+      "name": "wakacje",
+      "isVisible": false
+    },
+    {
+      "name": "piwko",
+      "isVisible": true
+    }
   ]
 }

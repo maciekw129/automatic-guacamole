@@ -825,6 +825,28 @@
       "name": "plaża"
     }
   ],
+  "categories": [
+    {
+      "name": "piwo",
+      "visibility": true
+    },
+    {
+      "name": "piłkarzyki",
+      "visibility": true
+    },
+    {
+      "name": "wyjścia do baru",
+      "visibility": true
+    },
+    {
+      "name": "szydełkowanie",
+      "visibility": false
+    },
+    {
+      "name": "plaża",
+      "visibility": true
+    }
+  ],
   "mockedGroupUsers": [
     {
       "id": 1,

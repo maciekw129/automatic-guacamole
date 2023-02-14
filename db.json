@@ -151,6 +151,98 @@
       }
     }
   ],
+  "ownedEvents": [
+    {
+      "id": 1,
+      "eventOwner": {
+        "userId": 1
+      },
+      "eventInfo": {
+        "name": "Giga Koks Turbo Event",
+        "category": {
+          "id": 4,
+          "name": "Piwerko"
+        },
+        "startDate": "20.01.2023",
+        "hashtags": [
+          {
+            "id": 1,
+            "value": "piwo"
+          },
+          {
+            "id": 2,
+            "value": "GigaTurboEssaKoks"
+          }
+        ],
+        "isConfirmationRequired": true,
+        "isPrivate": true,
+        "group": false,
+        "isCyclic": true,
+        "city": "Warszawa",
+        "acceptedStatusUsers": 10
+      }
+    },
+    {
+      "id": 2,
+      "eventOwner": {
+        "userId": 1
+      },
+      "eventInfo": {
+        "name": "Moj drugi super event",
+        "category": {
+          "id": 4,
+          "name": "Eventcik"
+        },
+        "startDate": "14.03.2023",
+        "hashtags": [
+          {
+            "id": 1,
+            "value": "piwo"
+          },
+          {
+            "id": 2,
+            "value": "TestEventu"
+          }
+        ],
+        "isConfirmationRequired": true,
+        "isPrivate": true,
+        "group": false,
+        "isCyclic": true,
+        "city": "Warszawa",
+        "acceptedStatusUsers": 10
+      }
+    },
+    {
+      "id": 3,
+      "eventOwner": {
+        "userId": 2
+      },
+      "eventInfo": {
+        "name": "Moj trzeci ale innego usera super event",
+        "category": {
+          "id": 4,
+          "name": "Eventcik"
+        },
+        "startDate": "18.03.2023",
+        "hashtags": [
+          {
+            "id": 1,
+            "value": "piwo"
+          },
+          {
+            "id": 2,
+            "value": "TestEventu"
+          }
+        ],
+        "isConfirmationRequired": true,
+        "isPrivate": true,
+        "group": true,
+        "isCyclic": true,
+        "city": "Warszawa",
+        "acceptedStatusUsers": 10
+      }
+    }
+  ],
   "singleEvents": [
     {
       "id": 1,
@@ -206,7 +298,7 @@
       "name": "Piłkarzyki",
       "description": "Gramy w piłkarzyki",
       "groupOwner": {
-        "basicUserId": 1
+        "userId": 1
       },
       "groupMembers": [
         {
@@ -274,7 +366,7 @@
       "name": "Moovelo Frontend",
       "description": "Wstęp tylko dla frontendu",
       "groupOwner": {
-        "basicUserId": 1
+        "userId": 1
       },
       "groupMembers": [
         {
@@ -404,7 +496,7 @@
       "name": "Backend Moovelo",
       "description": "Wstęp tylko dla backendu",
       "groupOwner": {
-        "basicUserId": 6
+        "userId": 6
       },
       "groupMembers": [
         {
@@ -534,7 +626,7 @@
       "name": "AgroAPKI",
       "description": "To ta lepsza grupa",
       "groupOwner": {
-        "basicUserId": 6
+        "userId": 6
       },
       "groupMembers": [
         {
@@ -637,7 +729,7 @@
       "name": "Wykolejeńcy",
       "description": "To ta trochę gorsza grupa",
       "groupOwner": {
-        "basicUserId": 6
+        "userId": 6
       },
       "groupMembers": [
         {
@@ -740,35 +832,10 @@
       "name": "Pusta grupa",
       "description": "To ta trochę gorsza grupa",
       "groupOwner": {
-        "basicUserId": 6
+        "userId": 6
       },
       "groupMembers": [],
       "events": []
-    },
-    {
-      "name": "     ",
-      "description": "                                                       ",
-      "id": 7
-    },
-    {
-      "name": "                         ",
-      "description": "                                            ",
-      "id": 8
-    },
-    {
-      "name": "              ",
-      "description": "                      ",
-      "id": 9
-    },
-    {
-      "name": "                    ",
-      "description": "                                ",
-      "id": 10
-    },
-    {
-      "name": "            ",
-      "description": "                                                           ",
-      "id": 11
     }
   ],
   "groups": [
@@ -1014,6 +1081,21 @@
       "id": 1,
       "name": "Św. Izydor",
       "description": "Potrzebujemy błogosławieństaw kapłana najwyższego"
+    },
+    {
+      "name": "Super Gites Kategoria",
+      "description": "Bardzo ESSA GIGA TURBO 2137GANG KMWTW",
+      "id": 2
+    },
+    {
+      "name": "GigaEsssa2137Gang",
+      "description": "DODAJ TO GAMONIU BO CIE WYWALE Z ROBOTY",
+      "id": 3
+    },
+    {
+      "name": "Super Nowa Kategoria",
+      "description": "Super gites Kategoria",
+      "id": 4
     }
   ],
   "comments": [

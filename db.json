@@ -246,6 +246,9 @@
   "singleEvents": [
     {
       "id": 1,
+      "eventOwner": {
+        "userId": 1
+      },
       "eventInfo": {
         "isConfirmationRequired": true,
         "limitedPlaces": 10,

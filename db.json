@@ -842,24 +842,59 @@
   ],
   "categories": [
     {
-      "name": "piwo",
-      "visibility": true
+      "id": 1,
+      "name": "piwko",
+      "isVisible": true
     },
     {
+      "id": 2,
       "name": "piłkarzyki",
-      "visibility": true
+      "isVisible": false
     },
     {
-      "name": "wyjścia do baru",
-      "visibility": true
+      "id": 3,
+      "name": "Nigdzie nie ide",
+      "isVisible": true
     },
     {
+      "id": 4,
       "name": "szydełkowanie",
-      "visibility": false
+      "isVisible": false
     },
     {
+      "id": 5,
       "name": "plaża",
-      "visibility": true
+      "isVisible": true
+    },
+    {
+      "id": 6,
+      "name": "wyjścia do baru",
+      "isVisible": false
+    },
+    {
+      "id": 7,
+      "name": "szydełkowanie",
+      "isVisible": true
+    },
+    {
+      "id": 8,
+      "name": "plaża",
+      "isVisible": false
+    },
+    {
+      "name": "Super Partia",
+      "isVisible": true,
+      "id": 9
+    },
+    {
+      "name": "Kolejna super kategoria",
+      "isVisible": false,
+      "id": 10
+    },
+    {
+      "name": "Skoki narciarskie",
+      "isVisible": true,
+      "id": 11
     }
   ],
   "mockedGroupUsers": [

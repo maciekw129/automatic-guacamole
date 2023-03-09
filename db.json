@@ -843,8 +843,8 @@
   "categories": [
     {
       "id": 1,
-      "name": "piwko",
-      "isVisible": true
+      "name": "piwo",
+      "isVisible": false
     },
     {
       "id": 2,
@@ -853,8 +853,8 @@
     },
     {
       "id": 3,
-      "name": "Nigdzie nie ide",
-      "isVisible": true
+      "name": "a może jednak pójdę",
+      "isVisible": false
     },
     {
       "id": 4,
@@ -864,7 +864,7 @@
     {
       "id": 5,
       "name": "plaża",
-      "isVisible": true
+      "isVisible": false
     },
     {
       "id": 6,
@@ -874,27 +874,32 @@
     {
       "id": 7,
       "name": "szydełkowanie",
-      "isVisible": true
-    },
-    {
-      "id": 8,
-      "name": "plaża",
       "isVisible": false
     },
     {
-      "name": "Super Partia",
+      "id": 8,
+      "name": "basen",
+      "isVisible": false
+    },
+    {
+      "name": "GIGA ESSSA Partia",
       "isVisible": true,
       "id": 9
     },
     {
       "name": "Kolejna super kategoria",
-      "isVisible": false,
+      "isVisible": true,
       "id": 10
     },
     {
       "name": "Skoki narciarskie",
       "isVisible": true,
       "id": 11
+    },
+    {
+      "name": "Kremówki",
+      "isVisible": true,
+      "id": 12
     }
   ],
   "mockedGroupUsers": [
@@ -908,8 +913,23 @@
         },
         {
           "id": 2,
-          "firstName": "David",
-          "lastName": "Balas"
+          "firstName": "Cristiano",
+          "lastName": "Ronaldo"
+        },
+        {
+          "id": 2,
+          "firstName": "Jacek",
+          "lastName": "Krzynówek"
+        },
+        {
+          "id": 2,
+          "firstName": "Rober",
+          "lastName": "Lewandowski"
+        },
+        {
+          "id": 2,
+          "firstName": "Diego",
+          "lastName": "Maradonna"
         }
       ]
     },
